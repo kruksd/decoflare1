@@ -978,7 +978,13 @@ position: relative;
       -ms-user-select: initial;
       user-select: initial;
      } 
-
+textarea,textarea:before,textarea:after{
+-webkit-user-select: initial;
+      -khtml-user-select: initial;
+      -moz-user-select: initial;
+      -ms-user-select: initial;
+      user-select: initial;
+}
 
 .testim {
   width: 100%;
